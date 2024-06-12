@@ -27,4 +27,7 @@ to get changes / commit info of all branches together git log --all and to get d
 to  claer the terminal of ctrl + L is not working then use q
 
 
->>>>>>> about
+
+ about
+to merge branches git merge branchname
+to delete branch git
