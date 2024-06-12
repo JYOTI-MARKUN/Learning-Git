@@ -16,4 +16,4 @@ to get changes of all branch in short form git log --sll -oneline
 to claer terminal if stuck q
 to open terminal ctrl + tilde
 to get graph view git log --all --oneline --graph
-
+to delet a branch that has no code just you hace created recently and wanna delete then git branch --delete branchname
