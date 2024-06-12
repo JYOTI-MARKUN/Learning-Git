@@ -1,6 +1,7 @@
 to add all file from change (current state) to stagged state git add .
 to create multiple files together touch index.html xtyle.css script.js text.text
 to check all  commit histrory git log
+to check all changes in short git log -s
 to create new directory mkdir
 to move a file mv indexx.hrml / file name
 to move a file in outer folder mv filename ../
@@ -14,4 +15,7 @@ to configure user anme and user email:- git config -- global user.name, git conf
 to check the number of barch in the code git branch
 to create a new branch git branch branchname
 to checkout to a branch git checkout branchname
+to get changes / commit info of all branches together git log --all and to get details in short git log gt log --all --oneline
+to  claer the terminal of ctrl + L is not working then use q
+
 
