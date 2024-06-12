@@ -11,5 +11,7 @@ to commit a chnage get commit -m ""
 to go in a perticular version of code git checout address (copied from log)
 to get back in main barch git checkout main
 to configure user anme and user email:- git config -- global user.name, git config user.email
-
+to check the number of barch in the code git branch
+to create a new branch git branch branchname
+to checkout to a branch git checkout branchname
 
