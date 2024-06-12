@@ -1,0 +1,15 @@
+to add all file from change (current state) to stagged state git add .
+to create multiple files together touch index.html xtyle.css script.js text.text
+to check all  commit histrory git log
+to create new directory mkdir
+to move a file mv indexx.hrml / file name
+to move a file in outer folder mv filename ../
+to go bakc in the previous directory cd ../
+to clear console ctrl + L
+to get the kist of all the files inside a folder ls
+to commit a chnage get commit -m ""
+to go in a perticular version of code git checout address (copied from log)
+to get back in main barch git checkout main
+to configure user anme and user email:- git config -- global user.name, git config user.email
+
+
