@@ -11,5 +11,9 @@ to commit a chnage get commit -m ""
 to go in a perticular version of code git checout address (copied from log)
 to get back in main barch git checkout main
 to configure user anme and user email:- git config -- global user.name, git config user.email
-
+to get change of all branch git log --all
+to get changes of all branch in short form git log --sll -oneline
+to claer terminal if stuck q
+to open terminal ctrl + tilde
+to get graph view git log --all --oneline --graph
 
