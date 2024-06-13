@@ -35,3 +35,9 @@ to delete branch git
 to push local repo into github
 git push -u origin branchname
 to rename a branch git branch -m branchname(you wanted to change to)
+to reset commit in the local repo there are three method 
+git reset --hard id of the commit where we wanna go (in case of hard reset the head , update the staging area reset the working directory)
+git reset --soft id of the commit where we wanna go (in case of soft the head reset , but staging area and current working directory remains unchanges)
+git reset --mixed id of the commit where we wanna go (in case of soft the head reset and staging area but current working directory remains unchanges)
+
+
