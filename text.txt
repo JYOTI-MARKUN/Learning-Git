@@ -40,6 +40,8 @@ git reset --hard id of the commit where we wanna go (in case of hard reset the h
 git reset --soft id of the commit where we wanna go (in case of soft the head reset , but staging area and current working directory remains unchanges)
 git reset --mixed id of the commit where we wanna go (in case of soft the head reset and staging area but current working directory remains unchanges)
 if we reset the changes and after that we wanna back those changes then we can use git resert --hard id where we wanna go (but git log will not provide us reset commit id so if we do git reflog that provide us all commit id's )
+head represent the current working directly, we can move our head by usiing git checkout head~4 thi will move our code 4 commit behind
+we can also so go some particular commit id by git checkout idname
 
 
 
