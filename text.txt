@@ -5,31 +5,36 @@ to check all changes in short git log -s
 to create new directory mkdir
 to move a file mv indexx.hrml / file name
 to move a file in outer folder mv filename ../
-to go bakc in the previous directory cd ../
+to go back in the previous directory cd ../
 to clear console ctrl + L
-to get the kist of all the files inside a folder ls
-to commit a chnage get commit -m ""
-to go in a perticular version of code git checout address (copied from log)
+to get the list of all the files inside a folder ls
+to commit a change get commit -m ""
+to go in a particular version of code git checkout address (copied from log)
 to get back in main barch git checkout main
 to configure user anme and user email:- git config -- global user.name, git config user.email
 <<<<<<< HEAD
 to get change of all branch git log --all
 to get changes of all branch in short form git log --sll -oneline
-to claer terminal if stuck q
+to clear terminal if stuck q
 to open terminal ctrl + tilde
 to get graph view git log --all --oneline --graph
-to delet a branch that has no code just you hace created recently and wanna delete then git branch --delete branchname
+to delete a branch that has no code just you have created recently and wanna delete then git branch --delete branchname
 =======
-to check the number of barch in the code git branch
+to check the number of branch in the code git branch
 to create a new branch git branch branchname
 to checkout to a branch git checkout branchname
 to get changes / commit info of all branches together git log --all and to get details in short git log gt log --all --oneline
-to  claer the terminal of ctrl + L is not working then use q
+to  clear the terminal of ctrl + L is not working then use q
+
+to push code from local repo to github git push -u origin branchname
+to change the branch name git branch -m main
+to pull changes from github to local repo git pull
 
 
 
  about
 to merge branches git merge branchname
+
 to delete branch git
 
 to push local repo into github
