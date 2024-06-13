@@ -29,14 +29,9 @@ to  clear the terminal of ctrl + L is not working then use q
 to push code from local repo to github git push -u origin branchname
 to change the branch name git branch -m main
 to pull changes from github to local repo git pull
-
-
-
  about
 to merge branches git merge branchname
-
 to delete branch git
-
 to push local repo into github
 git push -u origin branchname
 to rename a branch git branch -m branchname(you wanted to change to)
