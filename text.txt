@@ -43,5 +43,7 @@ if we reset the changes and after that we wanna back those changes then we can u
 head represent the current working directly, we can move our head by usiing git checkout head~4 thi will move our code 4 commit behind
 we can also so go some particular commit id by git checkout idname
 
+WHEN WE ADD DIFFERENT CODE IN DIFFERENT BARNCH AS THE SAME LINE THEN WHEN WE TRY TO ERGE BRANCHES WE WILL FACE CONFLICT WE NEED TO SOLVE THIS CONFLICT WE NEED TO CHOOSE THE RIGHT CODE WE WANNA SAVE AND THEN ADD IT AND COMMIT IT AND PUSH TO THE ORIGIN 
+
 
 
