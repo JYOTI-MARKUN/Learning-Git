@@ -55,3 +55,10 @@ git stash clear
 GWHEB WE HAVE ADDED MANY CODE AND COMMIT IT IN A BRANCH AND IN MAIN BRANCH WE JUST WANNA SOME SPECIFIC COMMIT ONLY THEN WE CAN USE CHERRY-PICK TO CHOOSE ONLY COMMIT WE WANT
 git cherry-pick id of the commit
 
+GIT IGNORE file
+when we want to ignore some file that we do not want our git to track and show it in github we can put in in .gitignore file 
+any file or folder that are added to it will not be tracked by git
+
+but if we add a file and it has been already tracked by git and after that we add it in .gitignore file then git will not ignore it, in this case if we wanna untrack the file he command is 
+git rm --cached file name 
+for the folder : git rm -- cached -r folderName/
