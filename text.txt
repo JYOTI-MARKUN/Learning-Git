@@ -62,3 +62,12 @@ any file or folder that are added to it will not be tracked by git
 but if we add a file and it has been already tracked by git and after that we add it in .gitignore file then git will not ignore it, in this case if we wanna untrack the file he command is 
 git rm --cached file name 
 for the folder : git rm -- cached -r folderName/
+IF YOU DELETD DOME FLE BY ACCIDENT TO RECOVER THAT file
+git checkout commit id (one commit before we deleted the actual commit) filename
+to add new chnages we need two command first git add. and second git commt -m "" if you want to sive two command and do this in only one command then do this
+git commit -am "" 
+
+to open gitconfig file command is 
+git config --gloabl -email
+
+
