@@ -75,4 +75,9 @@ to change a branch we can use git checkout branchName and second one is git chan
 TO CREATE A BRANCH AND GO IN THAT USING ONE COMMAND 
 GIT SWITCH -C NEWCREATED BRANCHNAME
 
- TO REVERT AMERGE 
+ TO REVERT A MERGE commit we need to do command
+ git revert idof merge commit -m  (we need to provide -m)
+ then we need to tell them we need to get back to the main branch where we are currently sp we meed to do this
+ git revert idof merge commit -m 1
+ 
+
