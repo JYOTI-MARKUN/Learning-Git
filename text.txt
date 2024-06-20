@@ -70,4 +70,9 @@ git commit -am ""
 to open gitconfig file command is 
 git config --gloabl -email
 
+to change a branch we can use git checkout branchName and second one is git change branchName
 
+TO CREATE A BRANCH AND GO IN THAT USING ONE COMMAND 
+GIT SWITCH -C NEWCREATED BRANCHNAME
+
+ TO REVERT AMERGE 
